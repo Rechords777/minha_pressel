@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Çerez Politikası",
+    "message": "Bu web sitesi, içeriği ve reklamları kişiselleştirmek, sosyal medya özellikleri sağlamak ve trafiğimizi analiz etmek için çerezleri kullanır. <strong>Kabul Et</strong>'e tıklayarak çerez kullanımını kabul etmiş olursunuz. Daha fazla bilgi için lütfen <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Çerez Politikamızı</a> inceleyin.",
+    "accept": "Kabul Et",
+    "close": "Kapat"
+  },
+  "age": {
+    "title": "Yaş Doğrulaması",
+    "message": "Devam etmek için lütfen 18 yaşından büyük olduğunuzu onaylayın.",
+    "confirm": "18 yaşından büyüğüm",
+    "deny": "18 yaşından küçüğüm"
+  },
+  "sex": {
+    "title": "Cinsiyet Seçimi",
+    "message": "Lütfen cinsiyetinizi seçin.",
+    "male": "Erkek",
+    "female": "Kadın",
+    "other": "Diğer",
+    "skip": "Atla"
+  },
+  "ghost": {
+    "title": "Yönlendiriliyor...",
+    "message": "Kısa süre içinde yönlendirileceksiniz. Otomatik olarak yönlendirilmezseniz buraya tıklayın.",
+    "continue": "Devam Et",
+    "close": "Kapat"
+  },
+  "country": {
+    "title": "Ülke Seçimi",
+    "message": "Lütfen ülkenizi seçin.",
+    "continue": "Devam Et",
+    "close": "Kapat"
+  }
+}

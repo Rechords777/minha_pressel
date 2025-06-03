@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Cookie Szabályzat",
+    "message": "Ez a weboldal sütiket használ a tartalom és a hirdetések személyre szabásához, a közösségi média funkciók biztosításához és a forgalmunk elemzéséhez. Az <strong>Elfogadom</strong> gombra kattintva hozzájárul a sütik használatához. További információért kérjük, tekintse meg <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Cookie Szabályzatunkat</a>.",
+    "accept": "Elfogadom",
+    "close": "Bezárás"
+  },
+  "age": {
+    "title": "Életkor-ellenőrzés",
+    "message": "Kérjük, erősítse meg, hogy elmúlt 18 éves a folytatáshoz.",
+    "confirm": "Elmúltam 18 éves",
+    "deny": "Még nem múltam el 18 éves"
+  },
+  "sex": {
+    "title": "Nem kiválasztása",
+    "message": "Kérjük, válassza ki a nemét.",
+    "male": "Férfi",
+    "female": "Nő",
+    "other": "Egyéb",
+    "skip": "Kihagyás"
+  },
+  "ghost": {
+    "title": "Átirányítás...",
+    "message": "Hamarosan átirányítjuk. Kattintson ide, ha nem irányítódik át automatikusan.",
+    "continue": "Folytatás",
+    "close": "Bezárás"
+  },
+  "country": {
+    "title": "Ország kiválasztása",
+    "message": "Kérjük, válassza ki az országát.",
+    "continue": "Folytatás",
+    "close": "Bezárás"
+  }
+}

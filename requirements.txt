@@ -1,0 +1,17 @@
+fastapi==0.115.12
+uvicorn==0.34.2
+sqlalchemy==2.0.41
+# Removendo psycopg2-binary (dependência nativa)
+# Usando sqlite para o MVP
+# psycopg2-binary==2.9.10
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.4.0
+python-multipart==0.0.20
+# Removendo pyppeteer (dependência nativa)
+# pyppeteer==2.0.0
+pydantic[email]==2.11.4
+pydantic-settings==2.9.1
+python-dotenv==1.1.0
+alembic==1.15.2
+
+psycopg2

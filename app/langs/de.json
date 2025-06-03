@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Cookie-Richtlinie",
+    "message": "Diese Website verwendet Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Netzwerke bereitzustellen und den Verkehr zu analysieren. Durch Klicken auf <strong>Akzeptieren</strong>, stimmen Sie der Verwendung von Cookies zu. Weitere Informationen finden Sie in der <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Cookie-Richtlinie</a>.",
+    "accept": "Akzeptieren",
+    "close": "Schließen"
+  },
+  "age": {
+    "title": "Altersüberprüfung",
+    "message": "Bitte bestätigen Sie, dass Sie über 18 Jahre alt sind, um fortzufahren.",
+    "confirm": "Ich bin über 18",
+    "deny": "Ich bin unter 18"
+  },
+  "sex": {
+    "title": "Geschlechtsauswahl",
+    "message": "Bitte wählen Sie Ihr Geschlecht aus.",
+    "male": "Männlich",
+    "female": "Weiblich",
+    "other": "Andere",
+    "skip": "Überspringen"
+  },
+  "ghost": {
+    "title": "Weiterleitung...",
+    "message": "Sie werden in Kürze weitergeleitet. Klicken Sie hier, wenn Sie nicht automatisch weitergeleitet werden.",
+    "continue": "Weiter",
+    "close": "Schließen"
+  },
+  "country": {
+    "title": "Länderauswahl",
+    "message": "Bitte wählen Sie Ihr Land aus.",
+    "continue": "Weiter",
+    "close": "Schließen"
+  }
+}

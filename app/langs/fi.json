@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Evästekäytäntö",
+    "message": "Tämä verkkosivusto käyttää evästeitä sisällön ja mainosten personointiin, sosiaalisen median ominaisuuksien tarjoamiseen ja liikenteemme analysointiin. Napsauttamalla <strong>Hyväksy</strong> hyväksyt evästeiden käytön. Lisätietoja saat <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Evästekäytännöstämme</a>.",
+    "accept": "Hyväksy",
+    "close": "Sulje"
+  },
+  "age": {
+    "title": "Ikärajan tarkistus",
+    "message": "Vahvista, että olet yli 18-vuotias jatkaaksesi.",
+    "confirm": "Olen yli 18-vuotias",
+    "deny": "Olen alle 18-vuotias"
+  },
+  "sex": {
+    "title": "Sukupuolen valinta",
+    "message": "Valitse sukupuolesi.",
+    "male": "Mies",
+    "female": "Nainen",
+    "other": "Muu",
+    "skip": "Ohita"
+  },
+  "ghost": {
+    "title": "Uudelleenohjataan...",
+    "message": "Sinut uudelleenohjataan pian. Napsauta tästä, jos sinua ei uudelleenohjata automaattisesti.",
+    "continue": "Jatka",
+    "close": "Sulje"
+  },
+  "country": {
+    "title": "Maan valinta",
+    "message": "Valitse maasi.",
+    "continue": "Jatka",
+    "close": "Sulje"
+  }
+}

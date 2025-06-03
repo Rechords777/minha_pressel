@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Cookie 政策",
+    "message": "本网站使用 Cookie 来个性化内容和广告、提供社交媒体功能并分析我们的流量。点击<strong>接受</strong>，即表示您同意使用 Cookie。有关更多信息，请参阅我们的 <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Cookie 政策</a>。",
+    "accept": "接受",
+    "close": "关闭"
+  },
+  "age": {
+    "title": "年龄验证",
+    "message": "请确认您已年满 18 岁才能继续。",
+    "confirm": "我已年满 18 岁",
+    "deny": "我未满 18 岁"
+  },
+  "sex": {
+    "title": "性别选择",
+    "message": "请选择您的性别。",
+    "male": "男性",
+    "female": "女性",
+    "other": "其他",
+    "skip": "跳过"
+  },
+  "ghost": {
+    "title": "正在重定向...",
+    "message": "您将很快被重定向。如果未自动重定向，请单击此处。",
+    "continue": "继续",
+    "close": "关闭"
+  },
+  "country": {
+    "title": "国家/地区选择",
+    "message": "请选择您的国家/地区。",
+    "continue": "继续",
+    "close": "关闭"
+  }
+}

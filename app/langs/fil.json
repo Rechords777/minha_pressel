@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Patakaran sa Cookie",
+    "message": "Gumagamit ang website na ito ng mga cookie upang i-personalize ang nilalaman at mga ad, magbigay ng mga tampok ng social media, at suriin ang aming trapiko. Sa pag-click sa <strong>Tanggapin</strong>, sumasang-ayon ka sa paggamit ng mga cookie. Para sa karagdagang impormasyon, mangyaring tingnan ang aming <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Patakaran sa Cookie</a>.",
+    "accept": "Tanggapin",
+    "close": "Isara"
+  },
+  "age": {
+    "title": "Pag-verify ng Edad",
+    "message": "Pakikumpirma na ikaw ay higit sa 18 taong gulang upang magpatuloy.",
+    "confirm": "Ako ay higit sa 18 taong gulang",
+    "deny": "Ako ay wala pang 18 taong gulang"
+  },
+  "sex": {
+    "title": "Pagpili ng Kasarian",
+    "message": "Pakipili ang iyong kasarian.",
+    "male": "Lalaki",
+    "female": "Babae",
+    "other": "Iba pa",
+    "skip": "Laktawan"
+  },
+  "ghost": {
+    "title": "Nagre-redirect...",
+    "message": "Mare-redirect ka sa ilang sandali. Mag-click dito kung hindi ka awtomatikong na-redirect.",
+    "continue": "Magpatuloy",
+    "close": "Isara"
+  },
+  "country": {
+    "title": "Pagpili ng Bansa",
+    "message": "Pakipili ang iyong bansa.",
+    "continue": "Magpatuloy",
+    "close": "Isara"
+  }
+}

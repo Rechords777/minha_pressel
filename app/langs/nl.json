@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Cookiebeleid",
+    "message": "Deze website maakt gebruik van cookies om inhoud en advertenties te personaliseren, functies voor sociale media te bieden en ons verkeer te analyseren. Door op <strong>Accepteren</strong> te klikken, gaat u akkoord met het gebruik van cookies. Raadpleeg ons <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Cookiebeleid</a> voor meer informatie.",
+    "accept": "Accepteren",
+    "close": "Sluiten"
+  },
+  "age": {
+    "title": "Leeftijdsverificatie",
+    "message": "Bevestig dat u ouder bent dan 18 jaar om door te gaan.",
+    "confirm": "Ik ben ouder dan 18",
+    "deny": "Ik ben jonger dan 18"
+  },
+  "sex": {
+    "title": "Geslachtskeuze",
+    "message": "Selecteer alstublieft uw geslacht.",
+    "male": "Man",
+    "female": "Vrouw",
+    "other": "Anders",
+    "skip": "Overslaan"
+  },
+  "ghost": {
+    "title": "Bezig met doorsturen...",
+    "message": "U wordt binnenkort doorgestuurd. Klik hier als u niet automatisch wordt doorgestuurd.",
+    "continue": "Doorgaan",
+    "close": "Sluiten"
+  },
+  "country": {
+    "title": "Landkeuze",
+    "message": "Selecteer alstublieft uw land.",
+    "continue": "Doorgaan",
+    "close": "Sluiten"
+  }
+}

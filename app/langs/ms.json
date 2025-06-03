@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Dasar Kuki",
+    "message": "Laman web ini menggunakan kuki untuk memperibadikan kandungan dan iklan, menyediakan ciri media sosial dan menganalisis trafik kami. Dengan mengklik <strong>Terima</strong>, anda bersetuju dengan penggunaan kuki. Untuk maklumat lanjut, sila lihat <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Dasar Kuki</a> kami.",
+    "accept": "Terima",
+    "close": "Tutup"
+  },
+  "age": {
+    "title": "Pengesahan Umur",
+    "message": "Sila sahkan anda berumur lebih dari 18 tahun untuk meneruskan.",
+    "confirm": "Saya berumur lebih dari 18 tahun",
+    "deny": "Saya berumur di bawah 18 tahun"
+  },
+  "sex": {
+    "title": "Pemilihan Jantina",
+    "message": "Sila pilih jantina anda.",
+    "male": "Lelaki",
+    "female": "Perempuan",
+    "other": "Lain-lain",
+    "skip": "Langkau"
+  },
+  "ghost": {
+    "title": "Mengarahkan semula...",
+    "message": "Anda akan diarahkan semula sebentar lagi. Klik di sini jika anda tidak diarahkan semula secara automatik.",
+    "continue": "Teruskan",
+    "close": "Tutup"
+  },
+  "country": {
+    "title": "Pemilihan Negara",
+    "message": "Sila pilih negara anda.",
+    "continue": "Teruskan",
+    "close": "Tutup"
+  }
+}

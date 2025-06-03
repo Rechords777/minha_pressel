@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Cookiepolicy",
+    "message": "Denna webbplats använder cookies för att anpassa innehåll och annonser, tillhandahålla funktioner för sociala medier och analysera vår trafik. Genom att klicka på <strong>Acceptera</strong> godkänner du användningen av cookies. För mer information, se vår <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Cookiepolicy</a>.",
+    "accept": "Acceptera",
+    "close": "Stäng"
+  },
+  "age": {
+    "title": "Åldersverifiering",
+    "message": "Bekräfta att du är över 18 år för att fortsätta.",
+    "confirm": "Jag är över 18 år",
+    "deny": "Jag är under 18 år"
+  },
+  "sex": {
+    "title": "Könsval",
+    "message": "Vänligen välj ditt kön.",
+    "male": "Man",
+    "female": "Kvinna",
+    "other": "Annat",
+    "skip": "Hoppa över"
+  },
+  "ghost": {
+    "title": "Omdirigerar...",
+    "message": "Du kommer att omdirigeras inom kort. Klicka här om du inte omdirigeras automatiskt.",
+    "continue": "Fortsätt",
+    "close": "Stäng"
+  },
+  "country": {
+    "title": "Landsval",
+    "message": "Vänligen välj ditt land.",
+    "continue": "Fortsätt",
+    "close": "Stäng"
+  }
+}

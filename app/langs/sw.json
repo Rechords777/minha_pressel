@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Sera ya Vidakuzi",
+    "message": "Tovuti hii hutumia vidakuzi kubinafsisha maudhui na matangazo, kutoa vipengele vya mitandao ya kijamii, na kuchanganua trafiki yetu. Kwa kubofya <strong>Kubali</strong>, unakubali matumizi ya vidakuzi. Kwa maelezo zaidi, tafadhali angalia <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Sera yetu ya Vidakuzi</a>.",
+    "accept": "Kubali",
+    "close": "Funga"
+  },
+  "age": {
+    "title": "Uthibitishaji wa Umri",
+    "message": "Tafadhali thibitisha kuwa una zaidi ya miaka 18 ili kuendelea.",
+    "confirm": "Nina zaidi ya miaka 18",
+    "deny": "Nina chini ya miaka 18"
+  },
+  "sex": {
+    "title": "Uchaguzi wa Jinsia",
+    "message": "Tafadhali chagua jinsia yako.",
+    "male": "Mwanaume",
+    "female": "Mwanamke",
+    "other": "Nyingine",
+    "skip": "Ruka"
+  },
+  "ghost": {
+    "title": "Inaelekeza upya...",
+    "message": "Utaelekezwa upya hivi karibuni. Bofya hapa ikiwa huelekezwi upya kiotomatiki.",
+    "continue": "Endelea",
+    "close": "Funga"
+  },
+  "country": {
+    "title": "Uchaguzi wa Nchi",
+    "message": "Tafadhali chagua nchi yako.",
+    "continue": "Endelea",
+    "close": "Funga"
+  }
+}

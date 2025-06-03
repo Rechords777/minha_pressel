@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Política de Cookies",
+    "message": "Este sitio web utiliza cookies para personalizar el contenido y los anuncios, proporcionar funciones de redes sociales y analizar nuestro tráfico. Al hacer clic en <strong>Aceptar</strong>, aceptas el uso de cookies. Para obtener más información, consulta nuestra <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Política de Cookies</a>.",
+    "accept": "Aceptar",
+    "close": "Cerrar"
+  },
+  "age": {
+    "title": "Verificación de Edad",
+    "message": "Por favor, confirma que eres mayor de 18 años para continuar.",
+    "confirm": "Soy mayor de 18 años",
+    "deny": "Soy menor de 18 años"
+  },
+  "sex": {
+    "title": "Selección de Género",
+    "message": "Por favor, selecciona tu género.",
+    "male": "Masculino",
+    "female": "Femenino",
+    "other": "Otro",
+    "skip": "Omitir"
+  },
+  "ghost": {
+    "title": "Redirigiendo...",
+    "message": "Serás redirigido en breve. Haz clic aquí si no eres redirigido automáticamente.",
+    "continue": "Continuar",
+    "close": "Cerrar"
+  },
+  "country": {
+    "title": "Selección de País",
+    "message": "Por favor, selecciona tu país.",
+    "continue": "Continuar",
+    "close": "Cerrar"
+  }
+}

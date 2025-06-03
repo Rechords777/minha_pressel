@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Kebijakan Cookie",
+    "message": "Situs web ini menggunakan cookie untuk mempersonalisasi konten dan iklan, menyediakan fitur media sosial, dan menganalisis lalu lintas kami. Dengan mengklik <strong>Terima</strong>, Anda menyetujui penggunaan cookie. Untuk informasi lebih lanjut, silakan lihat <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Kebijakan Cookie</a> kami.",
+    "accept": "Terima",
+    "close": "Tutup"
+  },
+  "age": {
+    "title": "Verifikasi Usia",
+    "message": "Harap konfirmasi bahwa Anda berusia di atas 18 tahun untuk melanjutkan.",
+    "confirm": "Saya berusia di atas 18 tahun",
+    "deny": "Saya berusia di bawah 18 tahun"
+  },
+  "sex": {
+    "title": "Pemilihan Jenis Kelamin",
+    "message": "Silakan pilih jenis kelamin Anda.",
+    "male": "Pria",
+    "female": "Wanita",
+    "other": "Lainnya",
+    "skip": "Lewati"
+  },
+  "ghost": {
+    "title": "Mengalihkan...",
+    "message": "Anda akan segera dialihkan. Klik di sini jika Anda tidak dialihkan secara otomatis.",
+    "continue": "Lanjutkan",
+    "close": "Tutup"
+  },
+  "country": {
+    "title": "Pemilihan Negara",
+    "message": "Silakan pilih negara Anda.",
+    "continue": "Lanjutkan",
+    "close": "Tutup"
+  }
+}

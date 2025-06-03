@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Cookie Policy",
+    "message": "This website uses cookies to personalize content and ads, provide social media features, and analyze our traffic. By clicking <strong>Accept</strong>, you agree to the use of cookies. For more information, please see our <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Cookie Policy</a>.",
+    "accept": "Accept",
+    "close": "Close"
+  },
+  "age": {
+    "title": "Age Verification",
+    "message": "Please confirm you are over 18 years old to continue.",
+    "confirm": "I am over 18",
+    "deny": "I am under 18"
+  },
+  "sex": {
+    "title": "Gender Selection",
+    "message": "Please select your gender.",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "skip": "Skip"
+  },
+  "ghost": {
+    "title": "Redirecting...",
+    "message": "You will be redirected shortly. Click here if you are not redirected automatically.",
+    "continue": "Continue",
+    "close": "Close"
+  },
+  "country": {
+    "title": "Country Selection",
+    "message": "Please select your country.",
+    "continue": "Continue",
+    "close": "Close"
+  }
+}

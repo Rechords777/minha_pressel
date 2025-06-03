@@ -1,0 +1,194 @@
+<style>
+  #cookie-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Mantendo o fundo escuro semi-transparente */
+    display: flex;
+    align-items: flex-end; /* Alinha o banner na parte inferior */
+    justify-content: center;
+    padding-bottom: 20px; /* Espaçamento inferior */
+    z-index: 10000; /* Garante que fique sobre outros elementos */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    box-sizing: border-box;
+  }
+
+  #cookie-banner {
+    position: relative; /* Para posicionar o botão 'X' */
+    background: rgba(50, 50, 50, 0.9); /* Fundo escuro, ligeiramente transparente */
+    color: #fff; /* Texto branco */
+    max-width: 800px; /* Largura máxima */
+    width: calc(100% - 40px); /* Largura responsiva com margens */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  #cookie-banner h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.3rem; /* Tamanho do título */
+    font-weight: bold;
+    color: #fff; /* Cor do título */
+  }
+
+  #cookie-banner p {
+    font-size: 0.95rem; /* Tamanho do texto */
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #eee; /* Cor do texto principal */
+  }
+
+  #cookie-banner p strong {
+      color: #fff; /* Destaca o 'Akzeptieren' ou similar */
+  }
+
+  a.affiliate-link-cookie { /* Classe específica para evitar conflitos */
+    color: #4dabf7; /* Cor azul clara para links */
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a.affiliate-link-cookie:hover {
+    text-decoration: underline;
+  }
+
+  #btn-close-banner {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #aaa; /* Cor do 'X' */
+    font-size: 1.5rem; /* Tamanho do 'X' */
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1;
+    padding: 0;
+  }
+
+  #btn-close-banner:hover {
+    color: #fff; /* Cor do 'X' ao passar o mouse */
+  }
+
+  .cookie-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start; /* Alinha botão à esquerda */
+  }
+
+  #btn-accept-cookies {
+    background-color: #4dabf7; /* Cor azul do botão */
+    color: #fff; /* Texto branco do botão */
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+  }
+
+  #btn-accept-cookies:hover {
+    background-color: #3690f0; /* Cor do botão ao passar o mouse */
+  }
+
+  /* Responsividade */
+  @media (max-width: 600px) {
+    #cookie-banner {
+      padding: 20px;
+      width: calc(100% - 20px); /* Ajusta largura para telas menores */
+    }
+    #cookie-banner h2 {
+      font-size: 1.1rem;
+    }
+    #cookie-banner p {
+      font-size: 0.9rem;
+    }
+    #btn-accept-cookies {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+    #btn-close-banner {
+        top: 10px;
+        right: 10px;
+        font-size: 1.3rem;
+    }
+  }
+</style>
+
+<div id="cookie-overlay">
+  <div id="cookie-banner">
+    <!-- Botão "X" com link de afiliado e tooltip dinâmico -->
+    <a href="{{ affiliate_link }}"
+       id="btn-close-banner" class="affiliate-link-cookie" title="{{close}}">×</a>
+
+    <!-- Título do banner dinâmico -->
+    <h2>{{title}}</h2>
+
+    <!-- Mensagem dinâmica (deve vir do arquivo de idioma, incluindo HTML se necessário) -->
+    <p>{{message}}</p>
+
+    <!-- Botão "Aceitar" dinâmico com link de afiliado -->
+    <div class="cookie-buttons">
+      <a href="{{ affiliate_link }}"
+         id="btn-accept-cookies" class="affiliate-link-cookie">{{accept}}</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const overlay = document.getElementById("cookie-overlay");
+    const closeButton = document.getElementById("btn-close-banner");
+    const acceptButton = document.getElementById("btn-accept-cookies");
+    // O link da política dentro da mensagem é tratado pelo conteúdo de {{message}}
+
+    if (overlay) {
+        overlay.style.display = "flex";
+    } else {
+        console.error("Cookie overlay element not found.");
+        return;
+    }
+
+    function handleCookieConsent(event, element) {
+      event.preventDefault();
+      event.stopPropagation();
+
+      const redirectUrl = element.href;
+
+      if (overlay) {
+        overlay.style.display = "none";
+      }
+
+      if (redirectUrl) {
+        window.location.href = redirectUrl;
+      } else {
+          console.error("Redirect URL not found for element:", element);
+      }
+    }
+
+    if (closeButton) {
+        closeButton.addEventListener("click", function(event) {
+            handleCookieConsent(event, this);
+        });
+    } else {
+        console.error("Close button element not found.");
+    }
+
+    if (acceptButton) {
+        acceptButton.addEventListener("click", function(event) {
+            handleCookieConsent(event, this);
+        });
+    } else {
+        console.error("Accept button element not found.");
+    }
+
+  });
+</script>

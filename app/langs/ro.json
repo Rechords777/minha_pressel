@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Politica privind Cookie-urile",
+    "message": "Acest site web folosește cookie-uri pentru a personaliza conținutul și reclamele, pentru a oferi funcții de social media și pentru a analiza traficul nostru. Făcând clic pe <strong>Accept</strong>, sunteți de acord cu utilizarea cookie-urilor. Pentru mai multe informații, vă rugăm să consultați <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Politica noastră privind Cookie-urile</a>.",
+    "accept": "Accept",
+    "close": "Închide"
+  },
+  "age": {
+    "title": "Verificarea vârstei",
+    "message": "Vă rugăm să confirmați că aveți peste 18 ani pentru a continua.",
+    "confirm": "Am peste 18 ani",
+    "deny": "Am sub 18 ani"
+  },
+  "sex": {
+    "title": "Selectarea genului",
+    "message": "Vă rugăm să selectați genul dumneavoastră.",
+    "male": "Masculin",
+    "female": "Feminin",
+    "other": "Altul",
+    "skip": "Omite"
+  },
+  "ghost": {
+    "title": "Redirecționare...",
+    "message": "Veți fi redirecționat în curând. Faceți clic aici dacă nu sunteți redirecționat automat.",
+    "continue": "Continuă",
+    "close": "Închide"
+  },
+  "country": {
+    "title": "Selectarea țării",
+    "message": "Vă rugăm să selectați țara dumneavoastră.",
+    "continue": "Continuă",
+    "close": "Închide"
+  }
+}

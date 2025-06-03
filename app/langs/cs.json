@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Zásady používání souborů cookie",
+    "message": "Tato webová stránka používá soubory cookie k personalizaci obsahu a reklam, poskytování funkcí sociálních médií a analýze naší návštěvnosti. Kliknutím na <strong>Přijmout</strong> souhlasíte s používáním souborů cookie. Další informace naleznete v našich <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Zásadách používání souborů cookie</a>.",
+    "accept": "Přijmout",
+    "close": "Zavřít"
+  },
+  "age": {
+    "title": "Ověření věku",
+    "message": "Pro pokračování potvrďte, že je vám více než 18 let.",
+    "confirm": "Je mi více než 18 let",
+    "deny": "Je mi méně než 18 let"
+  },
+  "sex": {
+    "title": "Výběr pohlaví",
+    "message": "Vyberte prosím své pohlaví.",
+    "male": "Muž",
+    "female": "Žena",
+    "other": "Jiné",
+    "skip": "Přeskočit"
+  },
+  "ghost": {
+    "title": "Přesměrování...",
+    "message": "Brzy budete přesměrováni. Klikněte sem, pokud nebudete přesměrováni automaticky.",
+    "continue": "Pokračovat",
+    "close": "Zavřít"
+  },
+  "country": {
+    "title": "Výběr země",
+    "message": "Vyberte prosím svou zemi.",
+    "continue": "Pokračovat",
+    "close": "Zavřít"
+  }
+}

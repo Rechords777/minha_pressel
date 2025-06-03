@@ -1,0 +1,35 @@
+{
+  "cookies": {
+    "title": "Cookie Notice",
+    "message": "This website uses cookies to ensure you get the best experience on our website.",
+    "accept": "Accept",
+    "close": "Close",
+    "learn_more": "Learn more"
+  },
+  "age": {
+    "title": "Age Verification",
+    "message": "This content is only available for people over 18 years old.",
+    "confirm": "I am over 18",
+    "deny": "I am under 18"
+  },
+  "sex": {
+    "title": "Gender Selection",
+    "message": "Please select your gender to continue:",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "skip": "Skip"
+  },
+  "ghost": {
+    "title": "Limited Time Offer",
+    "message": "This offer is only available for a limited time. Continue to access the exclusive content.",
+    "continue": "Continue",
+    "close": "Close"
+  },
+  "country": {
+    "title": "Country Verification",
+    "message": "This content is available in your country. Click continue to access.",
+    "continue": "Continue",
+    "close": "Close"
+  }
+}

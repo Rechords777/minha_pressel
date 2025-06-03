@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Cookiepolitik",
+    "message": "Denne hjemmeside bruger cookies til at tilpasse indhold og annoncer, levere funktioner til sociale medier og analysere vores trafik. Ved at klikke på <strong>Accepter</strong> accepterer du brugen af cookies. For mere information, se venligst vores <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Cookiepolitik</a>.",
+    "accept": "Accepter",
+    "close": "Luk"
+  },
+  "age": {
+    "title": "Aldersbekræftelse",
+    "message": "Bekræft venligst, at du er over 18 år for at fortsætte.",
+    "confirm": "Jeg er over 18 år",
+    "deny": "Jeg er under 18 år"
+  },
+  "sex": {
+    "title": "Kønsvalg",
+    "message": "Vælg venligst dit køn.",
+    "male": "Mand",
+    "female": "Kvinde",
+    "other": "Andet",
+    "skip": "Spring over"
+  },
+  "ghost": {
+    "title": "Omdirigerer...",
+    "message": "Du vil blive omdirigeret om kort tid. Klik her, hvis du ikke bliver omdirigeret automatisk.",
+    "continue": "Fortsæt",
+    "close": "Luk"
+  },
+  "country": {
+    "title": "Valg af land",
+    "message": "Vælg venligst dit land.",
+    "continue": "Fortsæt",
+    "close": "Luk"
+  }
+}

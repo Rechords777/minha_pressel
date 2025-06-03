@@ -1,0 +1,34 @@
+{
+  "cookies": {
+    "title": "Chính sách Cookie",
+    "message": "Trang web này sử dụng cookie để cá nhân hóa nội dung và quảng cáo, cung cấp các tính năng truyền thông xã hội và phân tích lưu lượng truy cập của chúng tôi. Bằng cách nhấp vào <strong>Chấp nhận</strong>, bạn đồng ý với việc sử dụng cookie. Để biết thêm thông tin, vui lòng xem <a href=\"{{ affiliate_link }}\" target=\"_blank\" rel=\"noopener\" class=\"affiliate-link-cookie\">Chính sách Cookie</a> của chúng tôi.",
+    "accept": "Chấp nhận",
+    "close": "Đóng"
+  },
+  "age": {
+    "title": "Xác minh độ tuổi",
+    "message": "Vui lòng xác nhận bạn trên 18 tuổi để tiếp tục.",
+    "confirm": "Tôi trên 18 tuổi",
+    "deny": "Tôi dưới 18 tuổi"
+  },
+  "sex": {
+    "title": "Lựa chọn giới tính",
+    "message": "Vui lòng chọn giới tính của bạn.",
+    "male": "Nam",
+    "female": "Nữ",
+    "other": "Khác",
+    "skip": "Bỏ qua"
+  },
+  "ghost": {
+    "title": "Đang chuyển hướng...",
+    "message": "Bạn sẽ sớm được chuyển hướng. Nhấp vào đây nếu bạn không được chuyển hướng tự động.",
+    "continue": "Tiếp tục",
+    "close": "Đóng"
+  },
+  "country": {
+    "title": "Lựa chọn quốc gia",
+    "message": "Vui lòng chọn quốc gia của bạn.",
+    "continue": "Tiếp tục",
+    "close": "Đóng"
+  }
+}
